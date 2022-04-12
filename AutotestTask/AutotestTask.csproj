@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="NLog" Version="4.7.15" />
+    <PackageReference Include="NLog.Config" Version="4.7.15" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="100.0.4896.6000" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.30.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\RATATOR\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
